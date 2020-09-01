@@ -1,0 +1,52 @@
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-title {
+    width: 900px;
+    height: 69px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    vertical-align: middle;
+    position: relative;
+}
+
+.main-title img {
+    width: 25px;
+    height: 25px;
+    margin: 22px 5px;
+}
+
+.main-title div {
+    line-height: 25px;
+    margin-top: 22px;
+    color: #244497;
+    font-size: 20px;
+}
+
+.main-title::before {
+    content: "";
+    width: 115px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: #244497;
+    position: absolute;
+}
+
+.page5-list1 {
+    width: 1200px;
+    margin-top: 20px;
+}
+
+.list-item img {
+    width: 585px;
+    height: 271px;
+    margin-top: 20px;
+}
+
+.list-title {
+    color: #244497;
+    line-height: 24px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,69 @@
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-title {
+    width: 900px;
+    height: 69px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    vertical-align: middle;
+    position: relative;
+}
+
+.main-title img {
+    width: 25px;
+    height: 25px;
+    margin: 22px 5px;
+}
+
+.main-title div {
+    line-height: 25px;
+    margin-top: 22px;
+    color: #244497;
+    font-size: 20px;
+}
+
+.main-title::before {
+    content: "";
+    width: 115px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: #244497;
+    position: absolute;
+}
+
+.page4-text {
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: #000;
+}
+
+.page4-list {
+    width: 1200px;
+    margin-top: 20px;
+}
+
+.page4-item {
+    width: 24.4%;
+    float: left;
+    margin: 0 0.8% 2% 0;
+    background: #f8f8f8;
+    border: solid 1px #f4f4f4;
+    padding: 4% 0 4% 3%;
+    color: #333333;
+    font-size: 20px;
+    list-style: none;
+}
+
+.page4-item img {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.page4-item span {
+    float: left;
+    margin-top: 45px;
+}
